@@ -33,7 +33,6 @@ Subqueries and Aggregation: Subqueries and aggregation allow for flexible queryi
 # Business Intelligence and Decision-Making
 Data-Driven Decisions: With well-structured data, the project can provide actionable insights into product performance, customer behavior, and sales trends. These insights are crucial for decision-making in inventory management, marketing strategies, and customer retention.
 Custom Queries for Reports: The system enables custom reports (e.g., finding the top 3 products by review count or identifying customers who purchased from multiple categories). These reports help businesses understand the market and make informed decisions.
-
 # Scalability and Performance
 Scalability Considerations: The database design is scalable, as it can handle large amounts of data through indexing and proper relationships. If more categories, products, or customers are added, the schema is flexible enough to scale without significant changes.
 Performance: Queries are optimized with the use of GROUP BY, JOIN, and WHERE clauses. However, for large datasets, further optimization techniques such as indexing on frequently queried columns (e.g., CustomerID, ProductID, OrderID) could be considered for faster query performance.
